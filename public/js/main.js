@@ -18,7 +18,7 @@ function ProductMain() {
           <div className="card-body">
             <h5 className="card-title">${product.price}</h5>
             <div className="card-text" style={{fontSize:product.size}}>{product.face}</div>
-            <div>{product.date}</div>
+            <div>{showDateFromNow(product.date)}</div>
           </div>
         </div>
       </div>
