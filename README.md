@@ -1,3 +1,13 @@
+How To Run
+====
+
+```sh
+npm install
+npm start
+```
+
+then access http://localhost:3000/
+
 Products Grid
 ====
 
